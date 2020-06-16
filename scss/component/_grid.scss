@@ -1,0 +1,69 @@
+.container {
+  padding: 0 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 10px;
+}
+
+[class^=col] {
+  margin-top: 10px;
+  flex-basis: 100%;
+  min-height: 25px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.theme.col-1 {
+  background-color: $backcolor1;
+}
+
+.theme.col-2 {
+  background-color: $backcolor2;
+}
+
+.theme.col-3 {
+  background-color: $backcolor3;
+}
+
+.theme.col-4 {
+  background-color: $backcolor4;
+}
+
+.theme.col-5 {
+  background-color: $backcolor5;
+}
+
+.theme.col-6 {
+  background-color: $backcolor6;
+}
+
+.theme.col-7 {
+  background-color: $backcolor7;
+}
+
+.theme.col-8 {
+  background-color: $backcolor8;
+}
+
+.theme.col-9 {
+  background-color: $backcolor9;
+}
+
+.theme.col-10 {
+  background-color: $backcolor10;
+}
+
+.theme.col-11 {
+  background-color: $link-color;
+}
+
+.theme.col-12 {
+  background-color: $backcolor12;
+}
+
+.card {
+  flex-basis: 100%;
+}
