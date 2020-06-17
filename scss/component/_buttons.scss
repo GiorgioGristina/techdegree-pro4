@@ -1,4 +1,4 @@
-.btn {
+%btn {
   margin-top: 15px;
   width: 100%;
   color: $tertiary-color;
@@ -8,22 +8,29 @@
   border-radius: 5px;
 }
 
-.default {
-  background-color: $link-color;
-}
+.btn{
+  &-default {
+    @extend %btn;
+    background-color: $link-color;
+  }
 
-.error {
-  background-color: $backcolor9;
-}
+  &-error {
+    @extend %btn;
+    background-color: $backcolor9;
+  }
 
-.info {
-  background-color: $backcolor1;
-}
+  &-info {
+    @extend %btn;
+    background-color: $backcolor1;
+  }
 
-.success {
-  background-color: $backcolor10;
-}
+  &-success {
+    @extend %btn;
+    background-color: $backcolor10;
+  }
 
-.warning {
-  background-color: $backcolor2;
+  &-warning {
+    @extend %btn;
+    background-color: $backcolor2;
+  }
 }
