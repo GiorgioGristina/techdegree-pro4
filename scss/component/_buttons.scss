@@ -9,28 +9,43 @@
 }
 
 .btn{
-  &-default {
+  &.default {
     @extend %btn;
     background-color: $link-color;
+    &:hover{
+      background-color: $link-color-light;
+    }
   }
 
-  &-error {
+  &.error {
     @extend %btn;
     background-color: $backcolor9;
+    &:hover{
+      background-color: $link-color-light;
+    }
   }
 
-  &-info {
+  &.info {
     @extend %btn;
     background-color: $backcolor1;
+    &:hover{
+      background-color: $backcolor1-light;
+    }
   }
 
-  &-success {
+  &.success {
     @extend %btn;
     background-color: $backcolor10;
+    &:hover{
+      background-color: $backcolor10-light;
+    }
   }
 
-  &-warning {
+  &.warning {
     @extend %btn;
     background-color: $backcolor2;
+    &:hover{
+      background-color: $backcolor2-light;
+    }
   }
 }
